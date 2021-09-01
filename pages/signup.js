@@ -73,7 +73,7 @@ console.log(isSubmitting)
 
           <FormControl id="username" p={4} isRequired>
             <InputGroup size="lg">
-              <InputLeftAddon children="clocker.work/"/>
+              <InputLeftAddon>clocker.work/</InputLeftAddon>
               <Input type="username" value={values.username} onChange={handleChange} onBlur={handleBlur}/>
             </InputGroup>
             {touched.username && <FormHelperText textColor="#ff1a00">{errors.username}</FormHelperText>}
