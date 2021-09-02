@@ -79,7 +79,7 @@ console.log(isSubmitting)
             {touched.username && <FormHelperText textColor="#ff1a00">{errors.username}</FormHelperText>}
         </FormControl>
         <Box p={4}>
-          <Button width="100%" colorScheme="blue" color="#ffffff" onClick={handleSubmit} isLoading={isSubmitting}>Entrar</Button>
+          <Button width="100%" colorScheme="blue" color="#ffffff" onClick={handleSubmit} isLoading={isSubmitting}>Cadastrar</Button>
         </Box>
       </Box>
 
